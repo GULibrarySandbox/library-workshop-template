@@ -25,7 +25,7 @@ The content pages serve as documentation and examples to copy from.
 
 Overview:
 
-1. Click the green "Use this template" button on the [workshop-template-b repository](https://github.com/evanwill/workshop-template-b) to make your own new copy of the code (make sure you are logged into GitHub!).
+1. Click the green "Use this template" button on the [Library Workshop Template](https://github.com/GULibrarySandbox/library-template-2022) to make your own new copy of the code (make sure you are logged into GitHub!).
 2. Work on the GitHub web interface or clone to your local machine to edit files (tip: click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)).
 3. Edit the `_config.yml` with your info.
 4. Edit/add the content pages in Markdown (found in the "content" folder).
@@ -88,9 +88,10 @@ To use the Bootstrap defaults for *any* of these values, comment out the variabl
 To add your own custom CSS, use the file "_sass/_custom.scss".
 Any CSS/SASS you add to this file will override the template and Bootstrap classes.
 
-### Add Optional Analytics [optional]
+### Google Analytics [optional]
 
-To use Google Analytics, add your analytics id to "_config.yml" in `google-analytics-id:` (if `google-analytics-id` is blank, the GA code will not added).
+Griffith's Google id has already been added to "_config.yml" in `google-analytics-id:` 
+
 To use an alternative analytics, paste the code snippet provided by the platform into the file "_includes/template/analytics.html".
 
 The analytics code will only be added when using "production" environment. 
