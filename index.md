@@ -25,6 +25,7 @@ This template has been 'Griffithised' in the following ways:
  - Content author set as Griffith Uni Library
  - Griffith campus feature photo added
  - Griffith favicon added
+ - Thin top bar coloured with 'Griffith Red' (#e30918)
 
 {% include alert.html text="That's fantastic!" color="info" %}
 
