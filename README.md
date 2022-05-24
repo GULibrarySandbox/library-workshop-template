@@ -1,6 +1,40 @@
-# workshop-template-b
+{% capture aboutworkshop %}
 
-`workshop-template-b` is a Jekyll template for a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
+## Topic and aims
+
+Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterity, Copyright for researchers, etc.
+
+Once you have completed this workshop you should be able to:
+
+- Explain the difference between copyright and academic integrity
+- Identify the most common sources of GLAM archival text
+- Verb a noun with the following limiting words
+
+## Audience
+
+This workshop is aimed at researchers and academics in the field of biostatistics.
+
+## Prerequisites
+
+To successfully coplete this workshop you will need: 
+
+- A modern browser
+- An installation of [OpenRefine](https://openrefine.org)
+
+## Assumed knowledge
+
+It is assumed that you have the following level of understanding:
+
+- Ability to install software on your own device
+- Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
+
+{% endcapture %}
+
+{% include card.html header="About this workshop" text=aboutworkshop %}
+
+# About the Griffith Library Workshop Template
+
+This template is derived from `workshop-template-b` by Evan Williamson. It is a Jekyll template for a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
 
 Works best for about 5 pages of instructions, plus an index page, all written in Markdown. 
 The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the sections.
