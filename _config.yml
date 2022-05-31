@@ -15,7 +15,7 @@ title: Griffith Library Workshop
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: bi-wrench-adjustable-circle
+title-icon: tools
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
 description: "A workshop companion site presented by Griffith University Library"
